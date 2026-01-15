@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script2.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Czwiczenie2</title>
+</head>
+<body>
+  <div class="box">
+    <div class="box1">
+  <input type="text" id="poleTextowe" min="0" max="3">
+  <input type="button" value="Make color" onclick="makeColor()"><br>
+ <button id="buttonJasniej" onclick="adjustColor(1)">Jasniej</button>
+ <button id="buttonCiemniej" onclick="adjustColor(-1)">Ciemniej</button>
+  <div id="colorBox">
+  </div></div>
+  <div class="box2">
+    <input type="text" id="poleTextowe2" readonly/>
+  <input type="button" value="Make random color" onclick="makeRandomColor()"/>
+  <div id="colorBox2"></div>
+</div></div>
+</body>
+</html>

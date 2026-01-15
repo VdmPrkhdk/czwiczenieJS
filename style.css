@@ -1,0 +1,50 @@
+body{
+  display: block;
+
+}
+button{
+  border: none;
+ padding: 10px 20px;
+ margin-right: 15px;
+ border-radius: 10%;
+}
+input{
+  border: none;
+  box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.15),
+      0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+#colorBox{
+  display: block;
+  margin-top: 20px;
+  width: 220px;
+  height: 220px;
+  box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.15),
+      0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+#colorBox2{
+
+  margin-top: 20px;
+  width: 220px;
+  height: 220px;
+  box-shadow: 2;
+position: absolute;
+bottom: 0;
+  
+  box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.15),
+      0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+#buttonJasniej{
+  margin-top: 20px;
+}
+.box{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
