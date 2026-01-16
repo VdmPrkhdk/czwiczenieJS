@@ -10,16 +10,34 @@
 <body>
   <div class="box">
     <div class="box1">
-  <input type="text" id="poleTextowe" min="0" max="3">
+  <input type="text" id="poleTextowe" autocomplete="off">
   <input type="button" value="Make color" onclick="makeColor()"><br>
  <button id="buttonJasniej" onclick="adjustColor(1)">Jasniej</button>
  <button id="buttonCiemniej" onclick="adjustColor(-1)">Ciemniej</button>
   <div id="colorBox">
   </div></div>
   <div class="box2">
-    <input type="text" id="poleTextowe2" readonly/>
+    <input type="text" id="poleTextowe2" readonly autocomplete="off"/>
   <input type="button" value="Make random color" onclick="makeRandomColor()"/>
   <div id="colorBox2"></div>
+  
 </div></div>
+<div class="button-table">
+<button type="button" onclick="addAttempt()">Wpisz</button>
+<button type="button" onclick="clearTable()">Czysc</button>
+</div>
+<div class="table-result">
+    <table>
+      <thead>
+   <tr class="headColumn">
+    <th>#</th>
+    <th>losowy kolor</th>
+    <th>ustawiony kolor</th>
+    <th>błąd</th>
+   </tr>
+  </thead>
+   <tbody id="calcResult"></tbody>
+    </table>
+  </div>
 </body>
 </html>

@@ -9,6 +9,7 @@ button{
  border-radius: 10%;
 }
 input{
+  margin-bottom: 10px;
   border: none;
   box-shadow:
       0 2px 5px rgba(0, 0, 0, 0.15),
@@ -47,4 +48,32 @@ bottom: 0;
   display: flex;
   justify-content: space-evenly;
   margin: 100px;
+}
+.table-result{
+/* border: 1px solid black; */
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.headColumn th{
+  /* border: 1px solid black; */
+  padding: 10px 30px;
+  box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.15),
+      0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgb(76, 109, 98);
+  color: azure;
+}
+.button-table{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.button-table button{
+  box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.15),
+      0 10px 20px rgba(0, 0, 0, 0.1);
 }
