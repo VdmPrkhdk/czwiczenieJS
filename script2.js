@@ -24,3 +24,6 @@ function adjustColor(step){
   element.style.backgroundColor=`rgb(${currentColor}%,${currentColor}%,${currentColor}%)`;
 
 }
+function getValidInput(inputId) {
+const input = document.getElementById("poleTextowe").value;
+return input.value === "" ? null : Numder(input.value);
