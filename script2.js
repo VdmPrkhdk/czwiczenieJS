@@ -1,5 +1,5 @@
-let currentColor= 0;
-let targetColor=null;
+let currentColor = 0;
+let targetColor = null;
 let attemptNo = 0;
 
 function makeColor(){
