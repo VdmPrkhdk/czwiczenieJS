@@ -1,6 +1,6 @@
 let currentColor = 0;
 let targetColor = null;
-let attemptNo = 0;
+let colejnyNo = 0;
 
 function makeColor(){
   currentColor=Number(document.getElementById("poleTextowe").value);
@@ -33,7 +33,7 @@ function addAttempt(){
     alert("First click: Make random color");
     return;
   }
-  attemptNo +=1;
+  colejnyNo +=1;
 const tbody = document.getElementById("calcResult");
 const tr = document.createElement("tr");
 const tdNo = document.createElement("td");
@@ -62,6 +62,6 @@ function clearTable(){
   while(tbody.firstChild){
     tbody.removeChild(tbody.firstChild);
   }
-  attemptNo = 0;
+  colejnyNo = 0;
 }
 
